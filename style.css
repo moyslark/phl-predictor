@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #0056b3;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#auth-section, #predict-section, #success-message {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #003d82;
+}
+
+.match-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.match-teams {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.predict-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.predict-option {
+    text-align: center;
+}
+
+.predict-option label {
+    display: block;
+    margin-bottom: 5px;
+}
