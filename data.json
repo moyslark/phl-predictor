@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "team1": "СКА",
+        "team2": "ЦСКА",
+        "date": "2023-12-15T19:30:00",
+        "predictions": [
+            {
+                "username": "hockey_fan",
+                "score1": 3,
+                "score2": 2
+            },
+            {
+                "username": "prognozist",
+                "score1": 1,
+                "score2": 4
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "team1": "Авангард",
+        "team2": "Салават Юлаев",
+        "date": "2023-12-16T17:00:00",
+        "predictions": []
+    }
+]
